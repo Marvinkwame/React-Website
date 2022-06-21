@@ -7,7 +7,7 @@ function Footer(props) {
     <footer className={`footer section ${props.darkMode ? "dark-theme" : "none"}`}>
         <div className="footer-container container">
             <div>
-                <a href="#" className='footer-logo'>
+                <a href="#home" className='footer-logo'>
                     Holux <BiBuildingHouse className='footer-icon' />
                 </a>
 
@@ -61,8 +61,8 @@ function Footer(props) {
             <h3>&#169; Marvin Kwame All rights reserved</h3>
 
             <div className="footer-privacy">
-                <a href="#">Terms & Agreements</a>
-                <a href="#">Privacy Policy</a>
+                <a href="#home">Terms & Agreements</a>
+                <a href="#home">Privacy Policy</a>
             </div>
         </div>
     </footer>
